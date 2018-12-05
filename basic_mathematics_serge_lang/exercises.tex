@@ -1,0 +1,64 @@
+\documentclass{report}
+\def\MLine#1{\par\hspace*{-\leftmargin}\parbox{\textwidth}{\[#1\]}}
+\begin{document}
+
+Book: Basic Mathematics
+Author: Serge Lang
+
+\tableofcontents{}
+
+\chapter{Numbers}
+
+\section{The Integers}
+No exercises in this section.
+
+\section{Rules for Addition}
+Justify each step, using commutativity and associativity in proving the following identities.
+
+\begin{enumerate}
+    \item (a + b) + (c + d) = (a + d) + (b + c)
+    \item (a + b) + (c + d) = (a + c) + (b + d)
+    \item (a - b) + (c - d) = (a + c) + (- b - d)
+    \item (a - b) + (c - d) = (a + c) - (b + d)
+    \item (a - b) + (c - d) = (a + d) - (c - b)
+    \item (a - b) + (c - d) = -(b + d) + (a + c)
+    \item (a - b) + (c - d) = -(b + d) - (-a - c)
+    \item ((x + y) + z) + w = (x + z) + (y + w)
+    \item (x - y) - (z - w) = (x + w) - y + z
+    \item (x - y) - (z - w) = (x - z) - (w - y)
+    \item Show that - (a + b + c) = -a + (-b) + (-c).
+    \item Show that -(a -b - c) = -a + b + c.
+    \item Show that -(a - b) = b - a.
+    \item[] Solve for x in the following equations.
+    \item -2 + x = 4
+    \item 2 - x = 5
+    \item x - 3 = 7
+    \item -x + 4 = 1
+    \item 4 - x = 8
+    \item -5 - x = -2
+    \item -7 + x = -10
+    \item -3 + x = 4
+    \item Prove the \textbf{cancellation law for addition:}
+	    \MLine{\textnormal{If } a + b = a + c, \textnormal{then } b = c}
+    \item Prove: If a + b = a, then b = 0
+\end{enumerate}
+
+\section{Rules for Multiplication}
+
+\begin{enumerate}
+	\item Express each of the following expressions in the form $2^n3^na^rb^s$, where $m$, $n$, $r$, $s$ are positve integers.
+		\begin{enumerate}
+			\item $8a^2b^3(27a^4)(2^5ab)$
+			\item $16b^3a^2(6ab^4)(ab)^3$
+			\item $3^2(2ab)^3(16a^2b^5)(24b^2a)$
+			\item $24a^3(1ab^2)^3(3ab)^2$
+			\item $(3ab)^2(27a^3b)(16ab^5)$
+			\item $32a^4b^5a^3b^2(6ab^3)^4$
+		\end{enumerate}
+	\item Prove:
+		\MLine{(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3}
+		\MLine{(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3}
+	\item Obtain expansion for $(a + b)^4$ and $(a - b)^4$ similar to the expansions for $(a + b)^3$ and $(a - b)^3$ of the preceding exercise.
+\end{enumerate}
+
+\end{document}
