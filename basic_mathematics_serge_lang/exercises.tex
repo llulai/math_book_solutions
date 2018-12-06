@@ -1,5 +1,6 @@
 \documentclass{report}
 \def\MLine#1{\par\hspace*{-\leftmargin}\parbox{\textwidth}{\[#1\]}}
+\usepackage{amsmath}
 \begin{document}
 
 Book: Basic Mathematics
@@ -46,7 +47,7 @@ Justify each step, using commutativity and associativity in proving the followin
 \section{Rules for Multiplication}
 
 \begin{enumerate}
-	\item Express each of the following expressions in the form $2^n3^na^rb^s$, where $m$, $n$, $r$, $s$ are positve integers.
+	\item Express each of the following expressions in the form $2^m3^na^rb^s$, where $m$, $n$, $r$, $s$ are positve integers.
 		\begin{enumerate}
 			\item $8a^2b^3(27a^4)(2^5ab)$
 			\item $16b^3a^2(6ab^4)(ab)^3$
@@ -100,4 +101,77 @@ Justify each step, using commutativity and associativity in proving the followin
 		\end{enumerate}
 \end{enumerate}
 
+\section{Even and Odd Integers; Divisibility}
+\begin{enumerate}
+	\item Give the proofs for the cases of Theorem 1 which were not proved in the text.
+	\item Prove: If $a$ is even and $b$ is any positive integer, then $ab$ is even.
+	\item Prove: If $a$ is even, then $a^3$ is even.
+	\item Prove: If $a$ is odd, then $a^3$ is odd.
+	\item Prove: if $n$ is even, then $(-1)^n = -1$.
+	\item Prove: if $n$ is odd, then $(-1)^n = -1$.
+	\item Prove: if $m$, $n$ are odd, then the product $mn$ is odd.
+	\item[] Find the largest power of 2 which divides the following integers.
+	\item 16
+	\item 24 
+	\item 32
+	\item 20
+	\item 50
+	\item 64
+	\item 100
+	\item 36
+	\item[] Find the largest power of 3 which divides the following integers.
+	\item 30 
+	\item 27
+	\item 63
+	\item 99
+	\item 60
+	\item 50
+	\item 42
+	\item 25
+	\item Let $a$, $b$ be integers. Define $a \equiv b (\textnormal{mod } 5)$, which we read
+		``$a$ is \textbf{congruent to} $b$ \textbf{modulo} 5'', to mean that
+		$a - b$ is divisible by 5. Prove: if $a \equiv b (\textnormal{mod } 5)$ and $x \equiv y (\textnormal{mod } 5)$, then
+		\MLine{a + x \equiv b + y (\textnormal{mod } 5)}
+		and
+		\MLine{ax \equiv by (\textnormal{mod } 5)}
+	\item Let $d$ be a positive integer. Let $a$, $b$ be integers. Define
+		\MLine{a \equiv b (\textnormal{mod } d)}
+		to mean that $a - b$ is divisible by $d$. Prove that if $a \equiv b (\textnormal{mod } d)$ and $x \equiv y (\textnormal{mod } d)$, then
+		\MLine{a + x \equiv b + y (\textnormal{mod } d)}
+		and
+		\MLine{ax \equiv by (\textnormal{mod } d)}
+	\item Assume that every positive integer can be written in one of the forms $3k$, $3k + 1$, $3k + 2$ for some integer $k$.
+		Show that if the square of a positive integer is divisible by 3, then so is the integer.
+\end{enumerate}
+
+\section{Rational Numbers}
+\begin{enumerate}
+	\item Solve for $a$ in the following equations.
+		\begin{enumerate}
+			\item $2a = \dfrac{3}{4}$
+			\item $\dfrac{3a}{5} = -7$
+			\item $\dfrac{-5a}{2} = \dfrac{3}{8}$
+		\end{enumerate}
+	\item Solve for $x$ in the following equations.
+		\begin{enumerate}
+			\item $3x - 5 = 0$
+			\item $-2x + 6 = 1$
+			\item $-7x = 2$
+		\end{enumerate}
+	\item Put the following fractions in the lowest form.
+		\begin{enumerate}
+			\item $ \dfrac{10}{25} $
+			\item $\dfrac{3}{9}$
+			\item $\dfrac{30}{25}$
+			\item $\dfrac{50}{15}$
+			\item $\dfrac{45}{9}$
+			\item $\dfrac{62}{4}$
+			\item $\dfrac{23}{46}$
+			\item $\dfrac{16}{40}$
+		\end{enumerate}
+\end{enumerate}
+
 \end{document}
+
+
+
